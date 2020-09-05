@@ -1,0 +1,16 @@
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
