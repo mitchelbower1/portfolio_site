@@ -1,0 +1,11 @@
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img { 
+  width: 400px;
+  height: 700px;
+  margin: 10px;
+}
