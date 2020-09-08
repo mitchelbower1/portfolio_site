@@ -1,11 +1,10 @@
 .pictures {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 img { 
   width: 400px;
   height: 700px;
-  margin: 10px;
 }
