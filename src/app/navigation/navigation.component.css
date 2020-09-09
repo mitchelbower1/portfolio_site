@@ -17,20 +17,33 @@ h1 {
   font-size: 35px;
   line-height: 80px;
   padding: 0 100px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
+  display: flex;
   float: right;
   margin-right: 20px;
 }
 
 nav ul li {
-  display: inline-block;
+  display: flex;
+  align-items: right;
+  flex-direction: row;
+  justify-content: flex-end;
   line-height: 80px;
   margin:  0 5px;
 }
 
 a {
   color: white;
-
+  font-size: larger;
+  font-weight: 700;
+  margin-right: 15px;
 }
