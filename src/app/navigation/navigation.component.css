@@ -19,6 +19,7 @@ h1 {
   padding: 0 100px;
   padding-left: 50px;
   cursor: pointer;
+  font-weight: 500;
 }
 
 nav {
@@ -41,9 +42,25 @@ nav ul li {
   margin:  0 5px;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 a {
   color: white;
   font-size: larger;
-  font-weight: 700;
+  font-weight: 500;
   margin-right: 15px;
+}
+
+.fa-github {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.fa-linkedin {
+  font-size: 30px;
 }

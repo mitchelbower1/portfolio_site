@@ -11,8 +11,8 @@ a {
 .intro {
   margin-top: 30px;
   display: flex;
-  justify-content: left;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   width: 100%;
 }
@@ -27,23 +27,27 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
 }
 
 div {
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   flex-direction: column;
   line-height: 400%;
-  padding-left: 50px;
   margin-top: 50px;
 }
 
 p {
   border: white solid 1px;
-  /* border-radius: 5px; */
+  border-radius: 5px;
   width: 40vw;
   padding: 5px;
   padding-left: 10px;
   padding-right: 5px;
+  -webkit-box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
+-moz-box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
+box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
 }
