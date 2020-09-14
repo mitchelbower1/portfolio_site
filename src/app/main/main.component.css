@@ -17,11 +17,9 @@ a {
   width: 100%;
 }
 
-img {
-  width: 400px;
-  height: 230px;
-  padding: 90px;
-}
+/* img {
+  
+} */
 
 h1 {
   display: flex;
