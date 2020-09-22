@@ -50,9 +50,17 @@ p {
 box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
 .showcase {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 40px;
 }
 
