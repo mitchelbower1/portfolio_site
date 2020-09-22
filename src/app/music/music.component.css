@@ -3,9 +3,11 @@
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
 }
 
 img { 
-  width: 350px;
-  height: 400px;
+  width: 498px;
+  height: 498px;
+  padding-top: 20px;
 }
