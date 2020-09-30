@@ -5,10 +5,13 @@
   <p>this is where i talk about my music and whatnot Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ad sit incidunt ex optio, pariatur doloremque consequatur, rerum perspiciatis corrupti laudantium vel reiciendis rem, obcaecati earum dignissimos. Sed, eveniet quas. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti earum laboriosam odit molestias aliquid totam voluptate dolore. Magnam tempore nobis quis beatae assumenda est, nulla voluptate, magni, quod atque omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda quae tempora labore culpa, perspiciatis perferendis. Voluptas non architecto aut. Quidem a quae eos velit rerum, ducimus suscipit est natus.</p>
 </div>
 
+<div class="wrapper">
+  
 <button (click)="toggle()"> {{buttonName}} </button>
-<div *ngIf="show" class="pictures">  
+
+<ng-container class="container" *ngIf="show">
+<div class="pictures">  
   <img src="assets/ormsby.jpg" alt="Ormsby HyperGTR">
-  <img src="assets/ormsby 2.jpg" alt="Ormsby HyperGTR">
   <img src="assets/ormsby 3.jpg" alt="Ormsby HyperGTR">
   <img src="assets/ormsby 4.jpg" alt="Ormsby HyperGTR">
   <img src="assets/ormsby 6.jpg" alt="Ormsby HyperGTR">
@@ -16,4 +19,19 @@
   <img src="assets/ormsby 9.jpg" alt="Ormsby HyperGTR">
   <img src="assets/ormsby 10.jpg" alt="Ormsby HyperGTR">
   <img src="assets/ormsby 11.jpg" alt="Ormsby HyperGTR">
+</div>
+</ng-container>
+
+<button (click)="toggleAgile()"> {{buttonNameAgile}} </button>
+
+<ng-container class="container" *ngIf="showAgile">
+<div class="pictures">  
+  <img src="assets/agile.jpg" alt="agile">
+  <img src="assets/agile 1.jpg" alt="agile">
+  <img src="assets/agile 2.jpg" alt="agile">
+  <img src="assets/agile 3.jpg" alt="agile">
+  <img src="assets/agile 4.jpg" alt="agile">
+  <img src="assets/agile 5.jpg" alt="agile">
+</div>
+</ng-container>
 </div>

@@ -4,19 +4,19 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class PortfolioService {
-  show:boolean = false;
-  buttonName:any = 'show';
+  // show:boolean = false;
+  // buttonName:any = 'show';
 
   constructor() { }
 
-  toggle() {
-    this.show = !this.show;
-    if(this.show) {
-      this.buttonName = "Hide"
-    } else { 
-      this.buttonName = "Show More"
-    }
-  }
+  // showHide() {
+  //   this.show = !this.show;
+  //   if(this.show) {
+  //     this.buttonName = "Hide"
+  //   } else { 
+  //     this.buttonName = "Show More"
+  //   }
+  // }
 }
 
 

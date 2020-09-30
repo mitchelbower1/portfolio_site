@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from '../portfolio.service';
 
 @Component({
   selector: 'app-music',
@@ -6,10 +7,30 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./music.component.css']
 })
 export class MusicComponent implements OnInit {
-
-  constructor() { }
+  buttonName:any = 'show more';
+  show:boolean = false;
+  buttonNameAgile:any = 'show more';
+  showAgile:boolean = false;
+  constructor(private service: PortfolioService) { }
 
   ngOnInit(): void {
   }
 
+   toggle() {
+    this.show = !this.show;
+    if(this.show) {
+      this.buttonName = "Hide"
+    } else { 
+      this.buttonName = "Show More"
+    }
+  }
+
+  toggleAgile() {
+    this.showAgile = !this.showAgile;
+    if(this.showAgile) {
+      this.buttonNameAgile = "Hide"
+    } else { 
+      this.buttonNameAgile = "Show More"
+    }
+  }
 }
