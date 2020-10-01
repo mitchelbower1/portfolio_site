@@ -7,13 +7,13 @@ import { PortfolioService } from '../portfolio.service';
   styleUrls: ['./music.component.css']
 })
 export class MusicComponent implements OnInit {
-  buttonName:any = 'show more';
+  buttonName:any = 'Ormsby HypeGTR';
   show:boolean = false;
-  buttonNameAgile:any = 'show more';
+  buttonNameAgile:any = 'Agile Interceptor';
   showAgile:boolean = false;
-  buttonNameJackson:any = 'show more';
+  buttonNameJackson:any = 'Jackson Rhoads V';
   showJackson:boolean = false;
-  buttonNameEsp:any = 'show more';
+  buttonNameEsp:any = 'ESP B-105 (5 string)';
   showEsp:boolean = false;
   constructor(private service: PortfolioService) { }
 
@@ -25,7 +25,7 @@ export class MusicComponent implements OnInit {
     if(this.show) {
       this.buttonName = "Hide"
     } else { 
-      this.buttonName = "Show More"
+      this.buttonName = "Ormsby HypeGTR"
     }
   }
 
@@ -34,7 +34,7 @@ export class MusicComponent implements OnInit {
     if(this.showAgile) {
       this.buttonNameAgile = "Hide"
     } else { 
-      this.buttonNameAgile = "Show More"
+      this.buttonNameAgile = "Agile Interceptor"
     }
   }
 
@@ -43,7 +43,7 @@ export class MusicComponent implements OnInit {
     if(this.showJackson) {
       this.buttonNameJackson = "Hide"
     } else { 
-      this.buttonNameJackson = "Show More"
+      this.buttonNameJackson = "Jackson Rhoads V"
     }
   }
 
@@ -52,7 +52,7 @@ export class MusicComponent implements OnInit {
     if(this.showEsp) {
       this.buttonNameEsp = "Hide"
     } else { 
-      this.buttonNameEsp = "Show More"
+      this.buttonNameEsp = "ESP B-105 (5 string)"
     }
   }
 }
