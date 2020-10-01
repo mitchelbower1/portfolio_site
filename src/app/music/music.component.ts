@@ -13,6 +13,8 @@ export class MusicComponent implements OnInit {
   showAgile:boolean = false;
   buttonNameJackson:any = 'show more';
   showJackson:boolean = false;
+  buttonNameEsp:any = 'show more';
+  showEsp:boolean = false;
   constructor(private service: PortfolioService) { }
 
   ngOnInit(): void {
@@ -42,6 +44,15 @@ export class MusicComponent implements OnInit {
       this.buttonNameJackson = "Hide"
     } else { 
       this.buttonNameJackson = "Show More"
+    }
+  }
+
+  toggleEsp() {
+    this.showEsp = !this.showEsp;
+    if(this.showEsp) {
+      this.buttonNameEsp = "Hide"
+    } else { 
+      this.buttonNameEsp = "Show More"
     }
   }
 }

@@ -44,4 +44,14 @@
   <img src="assets/jackson 2.jpg" alt="jackson">
 </div>
 </ng-container>
+
+<button (click)="toggleEsp()"> {{buttonNameEsp}} </button>
+
+<ng-container class="container" *ngIf="showEsp">
+<div class="pictures">  
+  <img src="assets/ESP 1.jpg" alt="ESP">
+  <img src="assets/ESP 2.jpg" alt="ESP">
+  <img src="assets/ESP 3.jpg" alt="ESP">
+</div>
+</ng-container>
 </div>
