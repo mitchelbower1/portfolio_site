@@ -34,4 +34,14 @@
   <img src="assets/agile 5.jpg" alt="agile">
 </div>
 </ng-container>
+
+<button (click)="toggleJackson()"> {{buttonNameJackson}} </button>
+
+<ng-container class="container" *ngIf="showJackson">
+<div class="pictures">  
+  <img src="assets/Jackson.jpg" alt="jackson">
+  <img src="assets/jackson 1.jpg" alt="jackson">
+  <img src="assets/jackson 2.jpg" alt="jackson">
+</div>
+</ng-container>
 </div>

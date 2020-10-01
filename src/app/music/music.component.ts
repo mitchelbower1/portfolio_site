@@ -11,6 +11,8 @@ export class MusicComponent implements OnInit {
   show:boolean = false;
   buttonNameAgile:any = 'show more';
   showAgile:boolean = false;
+  buttonNameJackson:any = 'show more';
+  showJackson:boolean = false;
   constructor(private service: PortfolioService) { }
 
   ngOnInit(): void {
@@ -31,6 +33,15 @@ export class MusicComponent implements OnInit {
       this.buttonNameAgile = "Hide"
     } else { 
       this.buttonNameAgile = "Show More"
+    }
+  }
+
+  toggleJackson() {
+    this.showJackson = !this.showJackson;
+    if(this.showJackson) {
+      this.buttonNameJackson = "Hide"
+    } else { 
+      this.buttonNameJackson = "Show More"
     }
   }
 }
