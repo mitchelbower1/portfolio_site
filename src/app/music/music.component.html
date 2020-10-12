@@ -10,7 +10,7 @@
   <button (click)="toggle()"> {{buttonName}} </button>
   
   <ng-container class="container" *ngIf="show">
-
+    
 <div class="pictures">  
   <img src="assets/ormsby.jpg" alt="Ormsby HyperGTR">
   <img src="assets/ormsby 3.jpg" alt="Ormsby HyperGTR">
@@ -26,6 +26,7 @@
 <button (click)="toggleAgile()"> {{buttonNameAgile}} </button>
 
 <ng-container class="container" *ngIf="showAgile">
+
 <div class="pictures">  
   <img src="assets/agile.jpg" alt="agile">
   <img src="assets/agile 1.jpg" alt="agile">
@@ -39,10 +40,32 @@
 <button (click)="toggleJackson()"> {{buttonNameJackson}} </button>
 
 <ng-container class="container" *ngIf="showJackson">
+
 <div class="pictures">  
   <img src="assets/Jackson.jpg" alt="jackson">
   <img src="assets/jackson 1.jpg" alt="jackson">
   <img src="assets/jackson 2.jpg" alt="jackson">
+</div>
+</ng-container>
+
+<button (click)="toggleEsp()"> {{buttonNameEsp}} </button>
+
+<ng-container class="container" *ngIf="showEsp">
+<div class="pictures">  
+  <img src="assets/ESP 1.jpg" alt="ESP">
+  <img src="assets/ESP 2.jpg" alt="ESP">
+  <img src="assets/ESP 3.jpg" alt="ESP">
+</div>
+</ng-container>
+
+<button (click)="toggleEspFretless()"> {{buttonNameEspFretless}} </button>
+
+<ng-container class="container" *ngIf="showEspFretless">
+<div class="pictures">  
+  <img src="assets/ESP Fretless.jpg" alt="ESP">
+  <img src="assets/ESP Fretless 1.jpg" alt="ESP">
+  <img src="assets/ESP fretless 2.jpg" alt="ESP">
+  <img src="assets/ESP Fretless 3.jpg" alt="ESP">
 </div>
 </ng-container>
 </div>

@@ -7,12 +7,16 @@ import { PortfolioService } from '../portfolio.service';
   styleUrls: ['./music.component.css']
 })
 export class MusicComponent implements OnInit {
-  buttonName:any = 'show more';
+  buttonName:any = 'Ormsby HypeGTR';
   show:boolean = false;
-  buttonNameAgile:any = 'show more';
+  buttonNameAgile:any = 'Agile Interceptor';
   showAgile:boolean = false;
-  buttonNameJackson:any = 'show more';
+  buttonNameJackson:any = 'Jackson';
   showJackson:boolean = false;
+  buttonNameEsp:any = 'ESP B-105';
+  showEsp:boolean = false;
+  buttonNameEspFretless:any = 'ESP B-205SM (fretless)';
+  showEspFretless:boolean = false;
   constructor(private service: PortfolioService) { }
 
   ngOnInit(): void {
@@ -23,7 +27,7 @@ export class MusicComponent implements OnInit {
     if(this.show) {
       this.buttonName = "Hide"
     } else { 
-      this.buttonName = "Show More"
+      this.buttonName = "Ormsby HypeGTR"
     }
   }
 
@@ -32,7 +36,7 @@ export class MusicComponent implements OnInit {
     if(this.showAgile) {
       this.buttonNameAgile = "Hide"
     } else { 
-      this.buttonNameAgile = "Show More"
+      this.buttonNameAgile = "Agile Interceptor"
     }
   }
 
@@ -41,7 +45,25 @@ export class MusicComponent implements OnInit {
     if(this.showJackson) {
       this.buttonNameJackson = "Hide"
     } else { 
-      this.buttonNameJackson = "Show More"
+      this.buttonNameJackson = "Jackson"
+    }
+  }
+
+  toggleEsp() {
+    this.showEsp = !this.showEsp;
+    if(this.showEsp) {
+      this.buttonNameEsp = "Hide"
+    } else { 
+      this.buttonNameEsp = "ESP B-105"
+    }
+  }
+
+  toggleEspFretless() {
+    this.showEspFretless = !this.showEspFretless;
+    if(this.showEspFretless) {
+      this.buttonNameEspFretless = "Hide"
+    } else { 
+      this.buttonNameEspFretless = "ESP B-205SM (Fretless)"
     }
   }
 }
