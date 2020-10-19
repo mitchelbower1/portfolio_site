@@ -1,3 +1,49 @@
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  line-height: 400%;
+  margin-top: 50px;
+  width: 40vw;
+  padding: 5px;
+}
+
+.yt-player {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ytPlayer {
+  margin-top: 20px;
+}
+
+.bandCampLink {
+  display: flex;
+  justify-content: center;
+ }
+
+ .link {
+   list-style: none;
+   text-decoration: none;
+   background-color: white;
+   color: black;
+   padding: 20px;
+   font-size: large;
+   margin-top: 10px;
+ }
+
+ a:hover {
+  background-color: black;
+  color: white;
+ }
+
 .wrapper {
   display: flex;
   justify-content: center;
