@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1001.5",
-    "@angular/cli": "~9.0.3",
+    "@angular/cli": "^11.0.3",
     "@angular/compiler-cli": "~9.0.2",
     "@angular/language-service": "~9.0.2",
     "@types/jasmine": "~3.5.0",
@@ -65,7 +65,7 @@
   "homepage": "https://github.com/mitchelbower1/portfolio_site#readme",
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./ --domain https://mitchbower.surge.sh/main"
+      "pre-push": "surge --project ./ --domain https://mitchbower.surge.sh"
     }
   }
 }

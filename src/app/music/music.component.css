@@ -14,9 +14,9 @@ p {
   border-radius: 5px;
   padding-left: 20px;
   padding-right: 20px;
-  -webkit-box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
--moz-box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
-box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
+  -webkit-box-shadow: 4px 4px 58px -16px rgba(89, 89, 89, 1);
+  -moz-box-shadow: 4px 4px 58px -16px rgba(89, 89, 89, 1);
+  box-shadow: 4px 4px 58px -16px rgba(89, 89, 89, 1);
 }
 
 .yt-player {
@@ -37,29 +37,29 @@ box-shadow: 4px 4px 58px -16px rgba(89,89,89,1);
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
- }
+}
 
- .link {
-   list-style: none;
-   text-decoration: none;
+.link {
+  list-style: none;
+  text-decoration: none;
   margin-bottom: 15px;
   padding: 0px;
- }
+}
 
- .bandcamp-image {
-   width: 250px;
-   height: 50px;
- }
+.bandcamp-image {
+  width: 250px;
+  height: 50px;
+}
 
- .soundcloud-image {
+.soundcloud-image {
   width: 250px;
   height: 100px;
 }
 
- a:hover {
+a:hover {
   background-color: black;
   color: white;
- }
+}
 
 .wrapper {
   display: flex;
@@ -88,13 +88,11 @@ button:hover {
   border: none;
 }
 
-
 .container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-
 
 .pictures {
   display: flex;
@@ -102,7 +100,7 @@ button:hover {
   justify-content: center;
 }
 
-img { 
+img {
   width: 498px;
   height: 498px;
   padding-top: 20px;
