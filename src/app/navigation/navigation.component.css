@@ -19,7 +19,7 @@ ul {
 }
 
 li {
-  margin: 3px;
+  margin: 5px;
 }
 
 .fa-github {
@@ -34,6 +34,7 @@ li {
 a {
   text-decoration: none;
   margin: 5px;
+  padding-bottom: 5px;
   font-size: 15px;
 }
 
@@ -103,8 +104,8 @@ a {
 
   a {
     color: white;
-    font-size: larger;
-    font-weight: 500;
+    font-size: medium;
+    font-weight: 400;
     margin-right: 15px;
   }
 
