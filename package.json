@@ -16,12 +16,12 @@
     "@angular/compiler": "~9.0.2",
     "@angular/core": "~9.0.2",
     "@angular/forms": "~9.0.2",
+    "@angular/localize": "^9.1.12",
     "@angular/platform-browser": "~9.0.2",
     "@angular/platform-browser-dynamic": "~9.0.2",
     "@angular/router": "~9.0.2",
     "@angular/youtube-player": "^10.2.5",
     "font-awesome": "^4.7.0",
-    "ngx-youtube-player": "^9.1.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "yt-player": "^3.4.3",
@@ -30,13 +30,13 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1001.5",
-    "@angular/cli": "~9.0.3",
     "@angular/compiler-cli": "~9.0.2",
     "@angular/language-service": "~9.0.2",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
+    "git-scripts": "^0.4.3",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.3.0",
@@ -45,8 +45,21 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.3",
+    "surge": "^0.21.7",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchelbower1/portfolio_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitchelbower1/portfolio_site/issues"
+  },
+  "homepage": "https://github.com/mitchelbower1/portfolio_site#readme"
 }

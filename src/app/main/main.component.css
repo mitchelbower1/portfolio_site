@@ -1,11 +1,3 @@
-.showcase {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-}
-
 a {
   display: flex;
   justify-content: right;
@@ -34,7 +26,7 @@ h1 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 div {
@@ -42,14 +34,14 @@ div {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  line-height: 400%;
-  margin-top: 50px;
+  line-height: 200%;
+  margin-top: 30px;
 }
 
 p {
   border: white solid 1px;
   border-radius: 5px;
-  width: 40vw;
+  width: 50vw;
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -63,6 +55,14 @@ p {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
 @media only screen and (min-width: 1211px) {

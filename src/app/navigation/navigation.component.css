@@ -7,6 +7,7 @@ nav {
 
 h1 {
   font-size: 35px;
+  cursor: pointer;
 }
 
 ul {
@@ -18,7 +19,7 @@ ul {
 }
 
 li {
-  margin: 10px;
+  margin: 5px;
 }
 
 .fa-github {
@@ -33,7 +34,8 @@ li {
 a {
   text-decoration: none;
   margin: 5px;
-  font-size: 20px;
+  padding-bottom: 5px;
+  font-size: 15px;
 }
 
 @media only screen and (min-width: 1020px) {
@@ -73,6 +75,14 @@ a {
     justify-content: space-between;
   }
 
+  .music:hover {
+    text-decoration: underline;
+  }
+
+  .bikesAndCars:hover {
+    text-decoration: underline;
+  }
+
   .nav {
     display: flex;
     float: right;
@@ -93,7 +103,7 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 5px;
   }
 
   .socials {
@@ -101,18 +111,15 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-right: 70px;
-  }
-
-  a:hover {
-    text-decoration: underline;
+    margin-right: 80px;
   }
 
   a {
     color: white;
     font-size: larger;
-    font-weight: 500;
-    margin-right: 15px;
+    font-weight: 400;
+    margin-right: 25px;
+    font-size: 15px;
   }
 
   .fa-github {
